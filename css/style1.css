@@ -1,0 +1,502 @@
+body{
+  background-color: grey;
+}
+
+#cont{
+
+  width: 90%;
+ margin-left: 5%;
+  height: 670px;
+  background-color: white;
+
+  top: 10px;
+  border-radius: 10px  10px 0px 0px;
+
+
+  
+}
+.hed{
+  background-color: #77BEFF;
+  border-radius: 10px  10px 0px 0px;
+  height: 70px;
+  width:99%;
+  border-style:solid;
+  border-color: #89949e;
+  display: flex;
+ ;
+  
+ position: sticky;
+ top: 0;
+ z-index: 100 ;
+ margin-top:5px;
+ 
+}
+.link1{
+  width: 39%;
+  text-align: center;
+}
+
+.link2{
+  width: 59%;
+  text-align: center;
+}
+.hed1{
+  background-color: #77BEFF;
+
+  text-align: center;
+ font-weight: bold;
+ font-size: 30px;
+  height: 50px;
+  width:99.5%;
+  border-style:solid;
+  border-color:#B6B6B6;
+  margin-top: 0.5px;
+  
+  
+}
+.hed a{
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+.bod{
+
+  
+  width: 100%; 
+  height:520px;
+  display: flex;
+
+  
+}
+
+.lft{
+  height: 500px;
+  width: 25%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:#B6B6B6;
+  background-color: #77BEFF;
+  margin-bottom: 10px;
+  color: #77BEFF;
+  display: grid;
+  grid-template-columns: [first] 20% [line2] 80%;
+
+}
+.rgt{
+  padding-top: 20px;
+  height: 500px;
+  width: 72%;
+  margin-top: 3%;
+  margin-left: 9px;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:#B6B6B6;
+  display:block;
+  padding-left: 1%;
+  margin-bottom: 10px;
+  
+  
+  
+}
+.icont{
+  width: auto;
+  height: auto;
+  
+  
+}
+.icont img{
+  width: 40px;
+  text-align: left;
+  margin-left: 10px;
+  height: 40px;
+}
+.icont a{
+  
+  text-decoration: none;
+font-size:15px;
+  color: #77BEFF;
+  padding-left: 20px;
+
+  
+}
+.icont a:hover{
+  color: blue;
+  font-weight: bold;
+cursor: pointer;
+ 
+}
+
+.lftb{
+ 
+  height: 75%;
+  display: flex;
+}
+.butb{
+ height: 20%;
+  
+}
+.lef{
+ text-align: center;
+  height: 100%;
+  width: 30%;
+}
+.lef img{
+  width: 80%;
+  height: 90%;
+}
+.rig{
+  
+  height: 100%;
+  width: 70%;
+ 
+  
+}
+
+
+.butb{
+  color: blue;
+ 
+}
+
+.butb a{
+  text-decoration: none;
+  color: blue;
+}
+
+
+
+@media screen and (min-width:320px){
+
+.rig{
+  
+  height: 100%;
+  width: 70%;
+  overflow-y: scroll;
+  
+
+  
+}
+p{
+  font-size: 15px;
+}
+.butb img{
+  color: blue;
+  padding-top: 50px;
+ 
+}
+
+  .hed{
+    background-color: #77BEFF;
+    border-radius: 10px  10px 0px 0px;
+    height: 70px;
+    width:100%;
+    border-style:solid;
+    border-color: #89949e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: sticky;
+   top: 0;
+   z-index: 100 ;
+   margin-top:5px;
+   font-size: xx-small;
+   
+  }
+.link1 a{
+  font-size:20px;
+}.link2 a{
+  font-size:20px;
+}
+.hed1{
+  font-size: large;
+}
+
+
+
+.lft{
+  height: 500px;
+  width: 47%;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:#B6B6B6;
+  background-color: #77BEFF;
+  margin-bottom: 10px;
+  color: #77BEFF;
+  display: grid;
+  grid-template-columns: [first] 20% [line2] 80%;
+  font-size: small;
+
+}
+.rgt{
+  height:500px;
+  width: 52%;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:#B6B6B6;
+  display:block;
+  
+  margin-bottom: 10px;
+  
+}
+
+
+.icont{
+  width: 20%;
+  height: auto;
+  
+  
+}
+.icont img{
+  width: 30px;
+  text-align: left;
+  margin-left: 10px;
+  height: 40px;
+}
+.icont a{
+  
+  text-decoration: none;
+font-size:12px;
+  color: #77BEFF;
+  padding-left: 20px;
+
+  
+}
+.icont a:hover{
+  color: blue;
+  font-weight: bold;
+cursor: pointer;
+ 
+}
+
+.butb{
+  margin-top: -20%;
+}
+.butb img{
+  width: 14%;
+}
+
+@media screen and (min-width:520px){
+
+ 
+  .rig{
+    
+    height: 100%;
+    width: 70%;
+    overflow-y: auto;
+ 
+  }
+  p{
+    font-size: 15px;
+  }
+  .butb img{
+    color: blue;
+    padding-top: 50px;
+   
+  }
+  .butb{
+    margin-top:-100px;
+  }
+
+  
+
+.rig p{
+  font-size: large;
+}
+  .lef img{
+    width: 100%;
+    height: 5%;
+
+  
+  }
+
+  .lft{
+    height: 500px;
+    width: 40%;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#B6B6B6;
+    background-color: #77BEFF;
+    margin-bottom: 10px;
+    color: #77BEFF;
+    display: grid;
+    grid-template-columns: [first] 20% [line2] 80%;
+    font-size: small;
+    
+  
+  }
+  .rgt{
+   
+    width: 69%;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#B6B6B6;
+    display:block;
+    background-color: grey;
+    margin-bottom: 10px;
+    
+    
+    
+  }
+
+  .icont{
+    width: 20%;
+    height: auto;
+    
+    
+  }
+  .icont img{
+    width: 40px;
+    text-align: left;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .icont a{
+    
+    text-decoration: none;
+    font-size:12px;
+    color: #77BEFF;
+    text-align: justify;
+  
+    
+  }
+  .butb img{
+    margin-top: 50px;
+  }
+ 
+
+
+}
+
+@media screen and (min-width:768px){
+
+
+
+
+  .lft{
+    height: 500px;
+    width: 40%;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#B6B6B6;
+    background-color: #77BEFF;
+    margin-bottom: 10px;
+    color: #77BEFF;
+    display: grid;
+    grid-template-columns: [first] 20% [line2] 80%;
+   
+  
+  }
+  .rgt{
+   
+    width: 69%;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#B6B6B6;
+    display:block;
+    
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    background-color: white;
+  
+  }
+  .butb{
+    margin-top: -180px;
+  }
+ 
+
+  .icont{
+    width: 20%;
+    height: auto;
+    
+    
+  }
+  .icont img{
+    width: 60px;
+    text-align: right;
+    margin-left: 10px;
+    height: 40px;
+  }
+  .icont a{
+    
+    text-decoration: none;
+    font-size: x-large;
+    color: #77BEFF;
+    text-align: left;
+  
+    
+  }
+  .butb img{
+    padding-top: 100px;
+    width:50px;
+    padding-left: 5%;
+   
+  
+  }
+}
+.lef img{
+  width: 100%;
+  height: 200px;
+  
+}
+
+
+.rig{
+  width: 60%;
+  font-size:small
+}
+ 
+
+  }
+
+  @media screen and (min-width:1024px){
+body{
+  background-color: white;
+
+}
+.rgt{
+  background-color: grey;
+}
+
+  .lef img{
+    width: 100%;
+    height: 200px;
+    
+  }
+
+
+  .rig{
+    width: 60%;
+    font-size: x-large;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
