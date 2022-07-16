@@ -80,7 +80,7 @@ body{
   border-color:#B6B6B6;
   background-color: #77BEFF;
   margin-bottom: 10px;
-  color: #77BEFF;
+ 
   display: grid;
   grid-template-columns: [first] 20% [line2] 80%;
 
@@ -102,7 +102,7 @@ body{
   
 }
 .icont{
-  width: auto;
+  width: 200px;
   height: auto;
   
   
@@ -116,9 +116,18 @@ body{
 .icont a{
   
   text-decoration: none;
-font-size:15px;
-  color: #77BEFF;
+  font-size:15px;
+ 
   padding-left: 20px;
+  transition: 3s ease-in-out;
+    transform: translateX(-250%);
+ 
+
+
+  width: 100px;
+  height: 100px;
+  
+  transition: width 2s;
 
   
 }
@@ -126,6 +135,9 @@ font-size:15px;
   color: blue;
   font-weight: bold;
 cursor: pointer;
+background-color: grey;
+
+width: 100px;
  
 }
 
@@ -215,7 +227,7 @@ cursor: pointer;
   border-color:#B6B6B6;
   background-color: #77BEFF;
   margin-bottom: 10px;
-  color: #77BEFF;
+
   display: grid;
   grid-template-columns: [first] 20% [line2] 80%;
   font-size: small;
@@ -252,7 +264,7 @@ cursor: pointer;
   
   text-decoration: none;
 font-size:12px;
-  color: #77BEFF;
+transition: 1s ease-in-out;
   padding-left: 20px;
 
   
@@ -261,6 +273,14 @@ font-size:12px;
   color: blue;
   font-weight: bold;
 cursor: pointer;
+margin-left: 50px;
+border-radius: 20px;
+
+
+
+margin-left: 50px;
+    transition: 0.2s ease-in-out;
+    background-color: whitesmoke;
  
 }
 
@@ -292,7 +312,7 @@ cursor: pointer;
     border-color:#B6B6B6;
     background-color: #77BEFF;
     margin-bottom: 10px;
-    color: #77BEFF;
+   
     display: grid;
     grid-template-columns: [first] 20% [line2] 80%;
     font-size: small;
@@ -329,7 +349,7 @@ cursor: pointer;
     
     text-decoration: none;
     font-size:12px;
-    color: #77BEFF;
+    
     text-align: justify;
   
     
@@ -357,7 +377,7 @@ cursor: pointer;
     border-color:#B6B6B6;
     background-color: #77BEFF;
     margin-bottom: 10px;
-    color: #77BEFF;
+ 
     display: grid;
     grid-template-columns: [first] 20% [line2] 80%;
    
@@ -400,7 +420,7 @@ cursor: pointer;
     
     text-decoration: none;
     font-size: x-large;
-    color: #77BEFF;
+    
     text-align: left;
   
     
@@ -441,7 +461,7 @@ body{
 
 }
 
-
+/* 
 #tg_button{
   height:50px;
   width:140px;
@@ -478,4 +498,4 @@ body{
 
 
 
-
+ */

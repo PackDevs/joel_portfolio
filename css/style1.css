@@ -80,7 +80,7 @@ body{
   border-color:#B6B6B6;
   background-color: #77BEFF;
   margin-bottom: 10px;
-  color: #77BEFF;
+  
   display: grid;
   grid-template-columns: [first] 20% [line2] 80%;
 
@@ -117,7 +117,7 @@ body{
   
   text-decoration: none;
 font-size:15px;
-  color: #77BEFF;
+ 
   padding-left: 20px;
 
   
@@ -226,7 +226,7 @@ p{
   border-color:#B6B6B6;
   background-color: #77BEFF;
   margin-bottom: 10px;
-  color: #77BEFF;
+ 
   display: grid;
   grid-template-columns: [first] 20% [line2] 80%;
   font-size: small;
@@ -326,7 +326,7 @@ cursor: pointer;
     border-color:#B6B6B6;
     background-color: #77BEFF;
     margin-bottom: 10px;
-    color: #77BEFF;
+   color: blue;
     display: grid;
     grid-template-columns: [first] 20% [line2] 80%;
     font-size: small;
@@ -365,7 +365,7 @@ cursor: pointer;
     
     text-decoration: none;
     font-size:12px;
-    color: #77BEFF;
+    
     text-align: justify;
   
     
@@ -393,7 +393,7 @@ cursor: pointer;
     border-color:#B6B6B6;
     background-color: #77BEFF;
     margin-bottom: 10px;
-    color: #77BEFF;
+    
     display: grid;
     grid-template-columns: [first] 20% [line2] 80%;
    
@@ -436,7 +436,7 @@ cursor: pointer;
     
     text-decoration: none;
     font-size: x-large;
-    color: #77BEFF;
+    
     text-align: left;
   
     
