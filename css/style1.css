@@ -517,12 +517,7 @@ body{
    
 text-decoration: none;}
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
-.but{
+#but img{
   width: 30px;
   height: 30px;
   border-radius: 50%;

@@ -1,6 +1,10 @@
+let bod=document.getElementById("but");
+console.log("bod");
+let but=document.getElementById("but");
+let lft=document.getElementById("lft");
+let rgt=document.getElementById("rgt");
 
-let but = document.getElementById("but");
-let bod = document.getElementById("bod");
+
 but.addEventListener("click",function(e){
-    bod.classList.toggle(but);
+    
 })
