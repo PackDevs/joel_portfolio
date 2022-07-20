@@ -1,0 +1,160 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(199, 146, 146);
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    background-image: cover;
+    background-position-x: center;
+}
+
+.form{
+    width:400px;
+    height: 280px;
+    padding: 40px;
+    margin-left: 20px;
+    border: 3px solid #fff720;
+    border-radius: 8px;
+    transform: translateY(-140%);
+    transition: 2s ease-in-out;
+ 
+}
+
+.success{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(60, 72, 85);
+    position: relative;
+    top: -380px;
+    visibility: hidden;
+    transition: 3s ease-in-out;
+    transform: translateX(-250%);
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 24px;
+    color: #ffffff;
+ 
+}
+
+
+#submit1{
+    width:70px ;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color:green;
+    font-size: 20px;  
+}
+input{
+    height: 20px;
+    width: 400px;  
+}
+select{
+    width: 170px;
+    height: 25px;
+    font-size: 18px; 
+
+}
+input[type=submit]{
+    width:70px ;
+    height: 30px;
+    border-radius: 10px;
+    background-color:green;
+    color:white;
+    font-size: 20px;
+    border: none; 
+}
+::placeholder{
+    font-size: 20px;
+    color: black;
+    font-weight: 400px;
+    
+}
+
+.down{
+    transform: translateY(5%);
+    transition: 3s ease-in-out;
+}
+
+
+@media (min-width: 320px) { 
+    .container{
+     width: 320px;
+    }
+    .form{
+     width: 200px;
+     padding-right: 10px;
+     margin-left: 20px;
+     
+    }
+    input{
+     width: 180px;
+    }
+  }
+
+
+ @media (min-width: 720px) {
+     .container{
+         width: 768px;
+        }
+        .form{
+         width: 600px;
+         padding-right: 10px;
+        }
+        input{
+         width: 570px;
+        } 
+         
+     }
+ @media (min-width: 1024px) {
+     .container{
+         width: 1024px;
+        }
+        .form{
+         width: 860px;
+         height: 320px;
+         padding-left: 70px;
+        }
+        input{
+         width: 800px;
+         height: 30px;
+        }
+        select{
+            height: 25px;
+        }
+   }
+ 
+ 
+   .congraturation{
+    transform: translateX(130%);
+    transition: 3s ease-in-out;  
+    
+  }
+  .message{
+      visibility: visible;
+      transform: translateX(70%);
+      transition: 3s ease-in-out;
+  }
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

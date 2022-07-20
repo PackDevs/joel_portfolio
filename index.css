@@ -1,0 +1,95 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hed.night{
+    background-color:black;
+}
+.bod.night{
+    background-color:black;
+}
+.hed1.night{
+    background-color:black;
+}
+.lft.night{
+    background-color:black;
+}
+.rgt.night{
+    background-color:black;
+}
+
+
+
+.label{
+    background-color: black;
+    display: flex;
+    height: 30px;
+    border-radius: 50px;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    transition: 0.5s ease-in-out ;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.label .fa-moon-o{
+    color: white;
+   
+
+}
+.label .fa-sun-o{
+    color: rgb(243,188,36);
+}
+.blob{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(146, 98, 98);
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.info{
+    display: block;
+    margin-top: 20px;
+}
+.hed1.night{
+    color: white;
+}
+
+.rgt.night{
+    color: white;
+}
+.rgt.night a,p{
+    color: white;
+}
+
+.hed.night a{
+    color: white;
+}
+.lft.night a{
+    color: white;
+}
+
+.checkbox:checked + .label .blob
+{
+    left: 0;
+}
